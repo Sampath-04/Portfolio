@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import CusorBubble from "./components/CursorBubble";
 import "./components/style.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,7 +20,6 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-gray-950 leading-relaxed text-white selection:bg-slate-400 selection:text-zinc-800`}
       >
-        <CusorBubble/>
         {children}
       </body>
     </html>
