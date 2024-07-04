@@ -1,0 +1,51 @@
+/* Add this CSS to your styles.css or a similar file */
+@mixin bubble($duration) {
+    animation: bubbleMove $duration ease-in-out infinite;
+  }
+  
+  @keyframes bubbleMove {
+    0% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-200px) scale(1.2);
+    }
+    100% {
+      transform: translateY(0) scale(1);
+    }
+  }
+  
+  .bubble {
+    position: absolute;
+    border-radius: 50%;
+    background: #4e54c8; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e54c8, #8f94fb); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e54c8, #8f94fb)
+  }
+  
+  .bubble:nth-child(1) {
+    width: 250px;
+    height: 250px;
+    left: 50%;
+    top: 50%;
+    @include bubble(3s);
+  }
+  
+  .bubble:nth-child(2) {
+    width: 30px;
+    height: 30px;
+    left: 30%;
+    top: 30%;
+    @include bubble(4s);
+  }
+  
+  .bubble:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    left: 70%;
+    top: 40%;
+    @include bubble(5s);
+  }
+  
+  /* ... Add more bubbles as needed */
+  
