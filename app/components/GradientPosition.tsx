@@ -27,7 +27,7 @@ const Gradientdiv:React.FC<GradientdivProps> = ({children,className}) =>{
     return(
         <div
             style={{
-                backgroundImage: `radial-gradient( circle at ${GradientPosition().x}px ${GradientPosition().y}px, rgba(234, 234, 234, 0.1)  , #030712 40% )`
+                backgroundImage: `radial-gradient( circle at ${GradientPosition().x}px ${GradientPosition().y}px, rgba(234, 234, 234, 0.05)  , #030712 40% )`
             }}
 
             className={className}>
