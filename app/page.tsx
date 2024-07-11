@@ -2,6 +2,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Gradientdiv from "./components/GradientPosition";
 import HeroMenu from "./components/HeroMenu";
+import Projects from "./components/Projects";
 export default function Home() {
   return (
     <Gradientdiv>
@@ -11,6 +12,7 @@ export default function Home() {
           <main className="pt-24 lg:w-1/2 lg:py-24">
             <About/>
             <Experience/>
+            <Projects/>
           </main>
         </section>
       </div>
