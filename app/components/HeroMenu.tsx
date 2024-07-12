@@ -4,10 +4,11 @@ import GitIcon from "../icons/GitIcon";
 import Linkedicon from "../icons/LinkedinIcon";
 import InstaIcon from "../icons/InstaIcon";
 import EmailIcon from "../icons/EmailIcon";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { IntersectionContext } from "../Context/IntersectionContext";
 
 const HeroMenu = () => {
-  const [activeMenu, setActiveMenu] = useState("About");
+  const activeSection = useContext(IntersectionContext);
 
   return (
     <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
@@ -28,16 +29,15 @@ const HeroMenu = () => {
               <a
                 href="#about"
                 className="group flex items-center py-3"
-                onClick={() => setActiveMenu("About")}
               >
                 <span
                   className={`mr-4 rounded  transition-all group-hover:w-16  group-hover:h-px group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:h-px group-focus-visible:bg-slate-200 ${
-                    activeMenu === "About"
+                    activeSection === "about"
                       ? "w-16 bg-slate-200 h-[1px]"
                       : "h-[5px] w-[5px] bg-slate-600"
                   }`}
                 ></span>
-                <span className={`nav-text text-xs font-bold uppercase tracking-widest  group-hover:text-slate-200 group-focus-visible:text-slate-200 ${activeMenu === "About" ? "text-white": "text-gray-500"}`}>
+                <span className={`nav-text text-xs font-bold uppercase tracking-widest  group-hover:text-slate-200 group-focus-visible:text-slate-200 ${activeSection === "About" ? "text-white": "text-gray-500"}`}>
                   ABOUT
                 </span>
               </a>
@@ -46,11 +46,10 @@ const HeroMenu = () => {
               <a
                 href="#experience"
                 className="group flex items-center py-3"
-                onClick={() => setActiveMenu("Experience")}
               >
                 <span
                   className={`mr-4 rounded  transition-all group-hover:w-16  group-hover:h-px group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:h-px group-focus-visible:bg-slate-200 ${
-                    activeMenu === "Experience"
+                    activeSection === "experience"
                       ? "w-16 bg-slate-200 h-[1px]"
                       : "h-[5px] w-[5px] bg-slate-600"
                   }`}
@@ -64,11 +63,10 @@ const HeroMenu = () => {
               <a
                 href="#projects"
                 className="group flex items-center py-3"
-                onClick={() => setActiveMenu("Projects")}
               >
                 <span
                   className={`mr-4 rounded  transition-all group-hover:w-16  group-hover:h-px group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:h-px group-focus-visible:bg-slate-200 ${
-                    activeMenu === "Projects"
+                    activeSection === "projects"
                       ? "w-16 bg-slate-200 h-[1px]"
                       : "h-[5px] w-[5px] bg-slate-600"
                   }`}
