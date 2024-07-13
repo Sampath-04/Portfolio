@@ -37,7 +37,7 @@ const HeroMenu = () => {
                       : "h-[5px] w-[5px] bg-slate-600"
                   }`}
                 ></span>
-                <span className={`nav-text text-xs font-bold uppercase tracking-widest  group-hover:text-slate-200 group-focus-visible:text-slate-200 ${activeSection === "About" ? "text-white": "text-gray-500"}`}>
+                <span className={`nav-text text-xs font-bold uppercase tracking-widest  group-hover:text-slate-200 group-focus-visible:text-slate-200 ${activeSection === "about" ? "text-white": "text-gray-500"}`}>
                   ABOUT
                 </span>
               </a>
@@ -54,7 +54,7 @@ const HeroMenu = () => {
                       : "h-[5px] w-[5px] bg-slate-600"
                   }`}
                 ></span>
-                <span className="nav-text text-xs font-bold uppercase tracking-widest text-gray-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                <span className={`nav-text text-xs font-bold uppercase tracking-widest text-gray-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 ${activeSection === "experience" ? "text-white": "text-gray-500"}`}>
                   EXPERIENCE
                 </span>
               </a>
@@ -71,7 +71,7 @@ const HeroMenu = () => {
                       : "h-[5px] w-[5px] bg-slate-600"
                   }`}
                 ></span>
-                <span className="nav-text text-xs font-bold uppercase tracking-widest text-gray-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                <span className={`nav-text text-xs font-bold uppercase tracking-widest text-gray-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 ${activeSection === "projects" ? "text-white": "text-gray-500"}`}>
                   PROJECTS
                 </span>
               </a>
