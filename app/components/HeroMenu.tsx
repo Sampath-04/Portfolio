@@ -82,27 +82,27 @@ const HeroMenu = () => {
       <ul className="ml-1 mt-8 flex items-center">
         <li className="mr-5 text-xs shrink-0">
           {" "}
-          <Link href={"#"} className="block hover:text-slate-600">
+          <Link href="https://github.com/sampath-ops" target="_blank" className="block hover:text-slate-600">
             <GitIcon />
           </Link>
         </li>
         <li className="mr-5 text-xs shrink-0">
           {" "}
-          <Link href={"#"} className="block hover:text-slate-600">
+          <Link href="https://www.linkedin.com/in/sampath-kumar-v/" target="_blank" className="block hover:text-slate-600">
             <Linkedicon />
           </Link>
         </li>
         <li className="mr-5 text-xs shrink-0">
           {" "}
-          <Link href={"#"} className="block hover:text-slate-600">
+          <Link href="https://www.instagram.com/sampath_kumar__04/" target="_blank" className="block hover:text-slate-600">
             <InstaIcon />
           </Link>
         </li>
         <li className="mr-5 text-xs shrink-0">
           {" "}
-          <Link href={"#"} className="block hover:text-slate-600">
+          <a href="mailto:sampathkaali002@gmail.com" target="_blank" className="block hover:text-slate-600">
             <EmailIcon />
-          </Link>
+          </a>
         </li>
       </ul>
     </div>
