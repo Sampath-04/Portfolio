@@ -19,9 +19,12 @@ export const CardTitleDesc = ({ cardContent }:any) => {
               className="rounded sm:col-span-2 border-2 z-10 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1"
             />
           )}
-          <div className="z-10 sm:col-span-6 sm:order-1 relative">
+          <div className="z-10 sm:col-span-6 sm:order-1">
             <h3 className="font-medium leading-snug text-slate-200">
-              {cardContent.title}
+              <a href={cardContent.link} className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-sky-400 focus-visible:text-sky-400  group/link text-base">
+                <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                {cardContent.title}
+              </a>
             </h3>
             <p className="mt-2 text-sm leading-normal text-gray-500 group-hover:text-white">
               {cardContent.desc}

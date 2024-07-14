@@ -8,12 +8,14 @@ const ExperienceDetails = [
     title: "Software Engineer - Lightcast",
     desc: "Build and maintain critical components for the lightcast site, I work closely with cross-functional teams, including developers, and product managers, to implement and advocate for best practices in web development. My role involves integrating APIs, crafting complex GraphQL queries, and ensuring a seamless, user-friendly experience.",
     techs: ["TypeScript", "Next.js", "DatoCMS", "GraphQL"],
+    link:"https://lightcast.io/"
   },
   {
     duration: "2021 DEC — 2022 APR",
     title: "React Developer - QuickStay",
     desc: "QuickStay is a startup project where I developed a website featuring property search functionality using the Google Places API. The project also involved integrating Firebase for backend services and Razorpay for managing payment plans.",
     techs: ["JavaScript", "React.js", "Firebase"],
+    link:"https://quickstayrooms.com/"
   },
 ];
 

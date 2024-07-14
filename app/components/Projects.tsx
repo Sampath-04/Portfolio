@@ -4,16 +4,16 @@ const projectDetails = [
     {
         imagePath:"/Images/e-tech.png",
         title:"E-Tech",
-        desc:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum optio officiis eveniet delectus adipisci? Dolores ex tempora accusamus inventore ullam mollitia itaque sit qui voluptas corporis voluptatum voluptatibus maxime consequatur, voluptates quasi, consectetur cupiditate officia repudiandae distinctio dignissimos rerum necessitatibus?",
-        techs:["React.js","Tailwind","Netlify"],
-        link:"#"
+        desc:" E-tech is built with Next.js and Tailwind CSS, featuring Radix UI for the tabs component and Embla Carousel for the testimonial section. Through this project, I honed my skills in utilizing Tailwind CSS for styling and responsiveness, implementing Embla Carousel, integrating Radix UI, and managing active status using Tailwind CSS classes.",
+        techs:["Next.js","Tailwind","Netlify","Radix UI"],
+        link:"https://e-tech-sam.vercel.app/"
     },
     {
         imagePath:"/Images/natours.png",
         title:"Natours",
-        desc:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum optio officiis eveniet delectus adipisci? Dolores ex tempora accusamus inventore ullam mollitia itaque sit qui voluptas corporis voluptatum voluptatibus maxime consequatur, voluptates quasi, consectetur cupiditate officia repudiandae distinctio dignissimos rerum necessitatibus?",
-        techs:["MongoDB","Node.js","Express","Pug","JavaScript"],
-        link:"#"
+        desc:"Natours is a comprehensive web application designed to facilitate tour booking and management. Key features include authentication and authorization, user profile management, and tour booking with a detailed map view and reviews. Users can sign up, log in, and update their profiles. Tours can be created and managed by admin users or lead guides, while regular users can book tours, write reviews, and manage their bookings. The project integrates technologies like NodeJS, Express, Mongoose, Pug, JSON Web Token, Stripe, Mailtrap, Heroku, and Mapbox.",
+        techs:["MongoDB","Node.js","Express.js","Pug","JavaScript"],
+        link:"https://natours-sampath.vercel.app/"
     }
 ]
 
