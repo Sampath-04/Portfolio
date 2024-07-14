@@ -4,9 +4,16 @@ const projectDetails = [
     {
         imagePath:"/Images/e-tech.png",
         title:"E-Tech",
-        desc:" E-tech is built with Next.js and Tailwind CSS, featuring Radix UI for the tabs component and Embla Carousel for the testimonial section. Through this project, I honed my skills in utilizing Tailwind CSS for styling and responsiveness, implementing Embla Carousel, integrating Radix UI, and managing active status using Tailwind CSS classes.",
+        desc:"E-tech is built with Next.js and Tailwind CSS, featuring Radix UI for the tabs component and Embla Carousel for the testimonial section. Through this project, I honed my skills in utilizing Tailwind CSS for styling and responsiveness, implementing Embla Carousel, integrating Radix UI, and managing active status using Tailwind CSS classes.",
         techs:["Next.js","Tailwind","Netlify","Radix UI"],
         link:"https://e-tech-sam.vercel.app/"
+    },
+    {
+        imagePath:"/Images/easy-bank.png",
+        title:"Easy Bank",
+        desc:"Easy Bank, completed as a Frontend Mentor challenge, showcases my skills in HTML, SCSS, and keyframe animations. Through this project, I deepened my understanding of animations, pseudo-elements, and the use of flex and grid layouts. The EasyBank website is a fully responsive",
+        techs:["HTML","SCSS","Javascript"],
+        link:"https://sampath-ops.github.io/EasyBank/"
     },
     {
         imagePath:"/Images/natours.png",
