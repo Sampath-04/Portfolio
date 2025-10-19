@@ -11,7 +11,7 @@ export default function Home() {
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <section className="lg:flex lg:justify-between lg:gap-4">
           <HeroMenu />
-          <main className="pt-24 lg:w-1/2 lg:py-24">
+          <main className="pt-12 md:pt-24 lg:w-1/2 lg:py-24">
             <About/>
             <Experience/>
             <Projects/>

@@ -17,7 +17,7 @@ const HeroMenu = () => {
           SampathKumar
         </h1>
         <h3 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          MERN Stack Developer
+          MERN | Spring Boot Developer | AI Developer
         </h3>
         <p className="mt-4 max-w-xs leading-normal text-gray-500">
           Dedicated to creating accessible and engaging digital interfaces for
@@ -82,7 +82,7 @@ const HeroMenu = () => {
       <ul className="ml-1 mt-8 flex items-center">
         <li className="mr-5 text-xs shrink-0">
           {" "}
-          <Link href="https://github.com/sampath-ops" target="_blank" className="block hover:text-slate-600">
+          <Link href="https://github.com/sampath-04" target="_blank" className="block hover:text-slate-600">
             <GitIcon />
           </Link>
         </li>

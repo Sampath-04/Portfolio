@@ -21,7 +21,7 @@ export const CardTitleDesc = ({ cardContent }:any) => {
           )}
           <div className="z-10 sm:col-span-6 sm:order-1">
             <h3 className="font-medium leading-snug text-slate-200">
-              <a href={cardContent.link} className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-sky-400 focus-visible:text-sky-400  group/link text-base">
+              <a href={cardContent.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-sky-400 focus-visible:text-sky-400  group/link text-base">
                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                 {cardContent.title}
               </a>

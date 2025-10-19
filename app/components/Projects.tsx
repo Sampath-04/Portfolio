@@ -2,18 +2,11 @@ import { CardTitleDesc } from "./CardTitleDesc";
 
 const projectDetails = [
     {
-        imagePath:"/Images/e-tech.png",
-        title:"E-Tech",
-        desc:"E-tech is built with Next.js and Tailwind CSS, featuring Radix UI for the tabs component and Embla Carousel for the testimonial section. Through this project, I honed my skills in utilizing Tailwind CSS for styling and responsiveness, implementing Embla Carousel, integrating Radix UI, and managing active status using Tailwind CSS classes.",
-        techs:["Next.js","Tailwind","Netlify","Radix UI"],
-        link:"https://e-tech-sam.vercel.app/"
-    },
-    {
-        imagePath:"/Images/easy-bank.png",
-        title:"Easy Bank",
-        desc:"Easy Bank, completed as a Frontend Mentor challenge, showcases my skills in HTML, SCSS, and keyframe animations. Through this project, I deepened my understanding of animations, pseudo-elements, and the use of flex and grid layouts. The EasyBank website is a fully responsive",
-        techs:["HTML","SCSS","Javascript"],
-        link:"https://sampath-ops.github.io/EasyBank/"
+        imagePath:"/Images/spring_ai.webp",
+        title:"Patient Analyser AI Assistant",
+        desc:"AI-powered patient data analyzer using Spring AI with function calling. Query patient records, vital signs, lab results, and medications using natural language. Features include intelligent analysis of medical data with 7 AI tools for patient demographics, vital signs, lab results, and medication management. Built with Spring Boot, H2 database, and local AI models via Docker.",
+        techs:["Spring Boot","Spring AI","Java 17","H2 Database","JPA/Hibernate","Docker"],
+        link:"https://github.com/Sampath-04/Patient-Analyser-AI-Assistant"
     },
     {
         imagePath:"/Images/natours.png",
@@ -21,7 +14,14 @@ const projectDetails = [
         desc:"Natours is a comprehensive web application designed to facilitate tour booking and management. Key features include authentication and authorization, user profile management, and tour booking with a detailed map view and reviews. Users can sign up, log in, and update their profiles. Tours can be created and managed by admin users or lead guides, while regular users can book tours, write reviews, and manage their bookings. The project integrates technologies like NodeJS, Express, Mongoose, Pug, JSON Web Token, Stripe, Mailtrap, Heroku, and Mapbox.",
         techs:["MongoDB","Node.js","Express.js","Pug","JavaScript"],
         link:"https://natours-sampath.vercel.app/"
-    }
+    },
+    {
+        imagePath:"/Images/easy-bank.png",
+        title:"Easy Bank",
+        desc:"Easy Bank, completed as a Frontend Mentor challenge, showcases my skills in HTML, SCSS, and keyframe animations. Through this project, I deepened my understanding of animations, pseudo-elements, and the use of flex and grid layouts. The EasyBank website is a fully responsive",
+        techs:["HTML","SCSS","Javascript"],
+        link:"https://sampath-04.github.io/EasyBank/"
+    },
 ]
 
 const Projects = () => {

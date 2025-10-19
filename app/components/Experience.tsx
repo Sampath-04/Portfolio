@@ -4,17 +4,24 @@ import { CardTitleDesc } from "./CardTitleDesc";
 
 const ExperienceDetails = [
   {
-    duration: "2023 JULY — Present",
-    title: "Software Engineer - Lightcast",
-    desc: "Build and maintain critical components for the lightcast site, I work closely with cross-functional teams, including developers, and product managers, to implement and advocate for best practices in web development. My role involves integrating APIs, crafting complex GraphQL queries, and ensuring a seamless, user-friendly experience.",
+    duration: "2024 OCT — Present",
+    title: "Full Stack Developer - WanderOn",
+    desc: "Designing and developing full-stack applications using Next.js, Redux Toolkit, Node.js, and MongoDB. Built scalable backend REST APIs supporting 1000+ API calls/day and optimized UI performance, reducing page load times by ~45% through performance optimization and efficient caching. Collaborating with cross-functional teams to ensure seamless integration.",
+    techs: ["Next.js", "Redux Toolkit", "Node.js", "MongoDB"],
+    link:"https://www.wanderon.in/"
+  },
+  {
+    duration: "2023 MAY — 2024 OCT",
+    title: "Software Engineer - LightCast",
+    desc: "Built and maintained critical components for the LightCast site, working closely with cross-functional teams including developers and product managers to implement and advocate for best practices in web development. Integrated APIs, crafted complex GraphQL queries, and ensured a seamless, user-friendly experience.",
     techs: ["TypeScript", "Next.js", "DatoCMS", "GraphQL"],
     link:"https://lightcast.io/"
   },
   {
     duration: "2021 DEC — 2022 APR",
-    title: "React Developer - QuickStay",
-    desc: "QuickStay is a startup project where I developed a website featuring property search functionality using the Google Places API. The project also involved integrating Firebase for backend services and Razorpay for managing payment plans.",
-    techs: ["JavaScript", "React.js", "Firebase"],
+    title: "Full Stack Developer - QuickStay",
+    desc: "Developed a robust full-stack application for property search across pan India using the Google Places API. Built the website during the 2nd year of Bachelor's degree, integrating Firebase for backend services and Razorpay for managing payment plans.",
+    techs: ["JavaScript", "React.js", "Firebase", "Google Places API"],
     link:"https://quickstayrooms.com/"
   },
 ];
@@ -35,7 +42,7 @@ const Experience = () => {
       </ul>
       <div className="mt-12">
         <Link
-          href="/resume.pdf"
+          href="/Sampath_CV.pdf"
           target="_blank"
           className="inline-flex items-baseline leading-tight hover:text-[#B0BBC2] focus-visible:text-[#B0BBC2] focus-visible:outline-gray-300 focus-visible:outline font-semibold text-slate-200 group/link text-base"
         >
