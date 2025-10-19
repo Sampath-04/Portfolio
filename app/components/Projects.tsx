@@ -16,7 +16,7 @@ const projectDetails = [
         link:"https://natours-sampath.vercel.app/"
     },
     {
-        imagePath:"/Images/easy-bank.png",
+        imagePath:"/Images/EasyBank.png",
         title:"Easy Bank",
         desc:"Easy Bank, completed as a Frontend Mentor challenge, showcases my skills in HTML, SCSS, and keyframe animations. Through this project, I deepened my understanding of animations, pseudo-elements, and the use of flex and grid layouts. The EasyBank website is a fully responsive",
         techs:["HTML","SCSS","Javascript"],
